@@ -1,0 +1,164 @@
+html{
+    scroll-behavior: smooth;
+}  
+
+body{
+    /* linear-gradient(to left top, blue, red); */
+    /* background-image: linear-gradient(to right bottom ,rgb(255, 255, 255),rgb(165, 220, 220),rgb(91, 179, 179),rgb(0, 255, 255)); */
+    /* background-image: url("pg.gif"); */
+
+    /* background-color: ; */
+    font-family: 'Times New Roman', Times, serif;
+    /* z-index: -1000; */
+    /* opacity: 0.2; */
+}
+
+
+#imgdiv{
+    float: right;
+    position: relative;
+    width: 10rem;
+}
+
+progress {
+    height: 15px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: black;
+  }
+
+
+
+#navbar{
+    position: fixed;
+    top: 0.2rem;
+    width: 100%;
+    height: 40px;
+    /* background-color:  #282A35!important; */
+    z-index: 1000;
+    display: flex;  
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.btns{
+    padding: 0.5rem;
+}
+
+.navitem{
+    /* color: azure; */
+    padding: 0.5rem;
+}
+
+
+.card-container {
+    display: flex;
+    /* flex-wrap: wrap; */
+    flex-direction: column;
+    /* justify-content: center; */
+    box-shadow: 0 8px 8px 0 greenyellow;
+    padding: 3rem;
+    margin: 1rem;
+    /* animation-name: border;
+    animation-duration: 5s;
+    animation-iteration-count: infinite; */
+
+}
+@keyframes border{
+
+    0%{
+        box-shadow: 0 8px 8px 0 greenyellow;
+
+    }
+
+    25%{
+        box-shadow: 0 8px 8px 0 rgb(168, 248, 248);
+
+    }
+
+    50%{
+        box-shadow: 0 8px 8px 0 rgb(0, 135, 135);
+    }
+
+    75%{
+        box-shadow: 0 8px 8px 0 rgb(155, 160, 160);
+
+    }
+
+    100%{
+        box-shadow: 0 8px 8px 0 azure;
+    }
+    
+}
+.skilldiv{
+    padding: 0.7rem;
+    margin: 0.6rem;
+
+}
+
+.c{
+    padding: 0.5rem;
+    margin: 0.1rem;
+
+}
+
+.e{
+    padding: 0.7rem;
+    margin: 0.01rem;
+
+}
+.card{
+    margin-top: 2.75rem;
+    /* color: azure; */
+    /* background-color:  #282A35!important;  */
+}
+
+
+.home{
+    font-size: larger;
+    width: 50%;
+    
+}
+
+
+#skill{
+
+    display : flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+
+}
+
+.move{
+    position: absolute;
+    font-size: 13px;
+    z-index: 1000;
+  }
+
+.heading{
+    align-self: center;
+    font-size: large;
+}
+  
+/* #contact{
+    display : flex;
+    flex-direction: column;
+}
+#education{
+    display : flex;
+    flex-direction: column;
+}
+#Projects{
+    display : flex;
+    flex-direction: column;
+} */
+
+
+
+
+
+
+
+
+
